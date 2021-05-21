@@ -1,5 +1,5 @@
 FROM gammabytehosting/rockylinux:latest
-LABEL maintainer="Michael Buluma"
+LABEL maintainer="Shadow Walker"
 ENV container=docker
 
 ENV pip_packages "ansible"
