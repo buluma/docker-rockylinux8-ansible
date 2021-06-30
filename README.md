@@ -1,6 +1,6 @@
 # Rocky Linux 8 Ansible Test Image
 
-[![CI](https://github.com/buluma/docker-rockylinux8-ansible/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/buluma/docker-rockylinux8-ansible/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/buluma/docker-rockylinux8-ansible)](https://hub.docker.com/r/buluma/docker-rockylinux8-ansible/)
+[![CI](https://github.com/buluma/docker-rockylinux8-ansible/workflows/Build/badge.svg?branch=master&event=push)](https://github.com/buluma/docker-rockylinux8-ansible/actions?query=workflow%3ABuild) [![Docker pulls](https://img.shields.io/docker/pulls/buluma/docker-rockylinux8-ansible?style=flat-square)](https://hub.docker.com/r/buluma/docker-rockylinux8-ansible/) ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/buluma/docker-rockylinux8-ansible?style=flat-square) ![Docker Image Version (latest semver)](https://img.shields.io/docker/v/buluma/docker-rockylinux8-ansible?style=flat-square)
 
 Rocky Linux 8 Docker container for Ansible playbook and role testing.
 
@@ -33,7 +33,7 @@ This image is built on Docker Hub automatically any time the upstream OS contain
 
 I use Docker to test my Ansible roles and playbooks on multiple OSes using CI tools like Jenkins and Travis. This container allows me to test roles and playbooks using Ansible running locally inside the container.
 
-> **Important Note**: I use this image for testing in an isolated environment—not for production—and the settings and configuration used may not be suitable for a secure and performant production environment. Use on production servers/in the wild at your own risk!
+> **Important Note**: This image is used for testing in an isolated environment—not for production—and the settings and configuration used may not be suitable for a secure and performant production environment. Use on production servers/in the wild at your own risk!
 
 ## Author
 
