@@ -5,7 +5,7 @@ on:
   pull_request:
   push:
     branches:
-      - main
+      - master
   schedule:
     - cron: '47 * * * *'
   workflow_dispatch:
@@ -36,7 +36,7 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     needs: test
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/master'
 
     steps:
       - uses: actions/checkout@v2
