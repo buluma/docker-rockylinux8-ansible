@@ -72,5 +72,5 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ${{ github.repository }}:latest
+            ${{ github.repository }}:latest, buluma/rockylinux8:latest, buluma/rockylinux:8
             ghcr.io/${{ github.repository }}:latest
