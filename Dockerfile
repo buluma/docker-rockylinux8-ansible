@@ -1,5 +1,6 @@
-FROM rockylinux/rockylinux:8
+FROM rockylinux/rockylinux:8.9
 LABEL maintainer="Shado Walker"
+LABEL build_date="2024-03-03"
 ENV container=docker
 
 ENV pip_packages "ansible"
